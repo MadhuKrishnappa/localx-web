@@ -1,4 +1,4 @@
-import logo from "./Group 36857.png";
+import logo from "./localxlogo.png";
 
 export const TailcastLogo = () => (
   <img

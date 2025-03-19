@@ -72,8 +72,8 @@ export const Hero = () => {
         >
          
           <div className="flex flex-col lg:flex-row  items-center mt-10">
-                        <div className="w-[350px] sm:w-[380px] lg:w-1/3  px-4 mb-8 lg:mb-0">
-                          <div className="p-8 bg-bgDark3 rounded-3xl">
+                        <div className="w-[350px] sm:w-[380px] lg:w-1/3   px-4 mb-8 lg:mb-0">
+                          <div className="p-8 bg-bgDark3 lg:w-[300px] rounded-3xl">
                             <h3 className="mb-4 text-xl font-bold font-heading text-primaryText text-left">
                             How is LocalX Different?
                             </h3>
@@ -101,7 +101,7 @@ export const Hero = () => {
                           </div>
                         </div>
                         <div className=" w-[350px] sm:w-[380px] lg:w-1/3  px-4 mb-8 lg:mb-0">
-                          <div className="px-8 py-8 bg-bgDark3 rounded-3xl">
+                          <div className="px-8 py-8 bg-bgDark3 lg:w-[300px] rounded-3xl">
                             <h3 className="mb-4 2xl:mb-4 text-2xl font-bold font-heading text-primaryText text-left">
                             How LocalX Works?
                             </h3>
@@ -127,8 +127,8 @@ export const Hero = () => {
                             
                           </div>
                         </div>
-                        <div className="w-[350px] sm:w-[380px] lg:w-1/3  px-4 mb-8 lg:mb-0">
-                          <div className="p-8 bg-bgDark3 rounded-3xl">
+                        <div className="w-[350px] sm:w-[380px] lg:w-1/3   px-4 mb-8 lg:mb-0">
+                          <div className="p-8 bg-bgDark3 lg:w-[300px] rounded-3xl">
                             <h3 className="mb-2 text-xl font-bold font-heading text-primaryText text-left">
                             Who Can Use LocalX?
                             </h3>
