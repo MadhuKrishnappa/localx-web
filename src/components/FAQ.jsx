@@ -3,25 +3,60 @@ import { motion } from "framer-motion";
 
 const FAQData = [
   {
-    question: "Can I upgrade or downgrade my plan at any time?",
+    question: "1. How do I place an order on LocalX?",
     answer:
-      "Yes, you can easily upgrade or downgrade your plan at any time. Simply navigate to the account settings in your dashboard and choose the desired plan. The changes will be reflected immediately, and any adjustments in pricing will be applied on your next billing cycle. Our support team is more than happy to provide guidance and recommendations.",
+      "Simply browse through the available stores, select the items you want, add them to your cart, and proceed to checkout. You can choose home delivery or store pickup.",
   },
   {
-    question: "How to claim your 25% discount offer?",
+    question: "2. Can I schedule a delivery for later?",
     answer:
-      "To claim your 25% discount, simply sign up for an account and enter the promotional code at checkout. The discount will be applied automatically to your purchase.",
+      "Yes! LocalX allows you to schedule deliveries at a time that is convenient for you.",
   },
   {
-    question: "What's your refund policy?",
+    question: "3. How do I track my order?",
     answer:
-      "We offer a 30-day money-back guarantee on all our plans. If you're not satisfied with our product, simply contact our support team within 30 days of purchase for a full refund.",
+      "Once you place an order, you can track it in real-time from your profile under My Orders.",
   },
   {
-    question: "How to get support for the product?",
+    question: "4. What happens if an item is out of stock after I place an order?",
     answer:
-      "Our dedicated support team is here to help. You can reach out to us through the contact form on our website, send an email, or engage with us via live chat. We'll be happy to assist you with any questions or concerns you may have",
+      "If an item is unavailable, the store may offer a replacement or refund. You will be notified in such cases.",
   },
+  {
+    question: "5. Can I order from multiple stores in one go?",
+    answer:
+      "Currently, each order is placed per store, but you can place multiple orders from different stores at the same time.",
+  },
+  {
+    question: "6. How can I register my store on LocalX?",
+    answer:
+      "Sign up as a seller, fill in your business details, upload product listings, and start receiving orders.",
+  },
+  {
+    question: "7. What are the charges for selling on LocalX?",
+    answer:
+      "LocalX charges a small commission on each sale. Details of pricing and commissions are available in the seller dashboard.",
+  },
+  {
+    question: "8. How do I manage my store and inventory?",
+    answer:
+      "You get access to an easy-to-use seller dashboard where you can add, update, and manage product listings, orders, and stock levels.",
+  },
+  {
+    question: "9.  Can I offer discounts and special promotions?",
+    answer:
+      "Yes, sellers can create special offers, discounts, and coupons to attract more customers.",
+  },
+  {
+    question: "10. How do I receive payments?",
+    answer:
+      "Payments are processed securely and transferred to your registered bank account based on LocalX’s payout cycle.",
+  },
+  {
+    question: "11. Is LocalX available in my city?",
+    answer:
+      "LocalX is expanding rapidly. Check the app or website to see if we are available in your area.",
+  }
 ];
 
 export const FAQ = () => (
