@@ -7,4 +7,7 @@ export default defineConfig({
   site: 'https://madhukrishnappa.github.io/localx-web/',
   base: '/localx-web/', // Required for GitHub Pages subpath
   output: 'static',
+  legacy: {
+    buildStatic: true, // Ensures all scripts are properly linked
+  },
 });
