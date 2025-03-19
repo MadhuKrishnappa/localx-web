@@ -17,11 +17,11 @@ import '../styles/Diagonals.css'
 ---
 
 <Layout title="LocalX">
-  <Navbar client:load />
-  <Hero client:load />
-  <Features1 client:load />
-  <Brands client:load />
-  <FAQ client:load /> 
+  <Navbar client:only="react" />
+  <Hero client:only="react" />
+  <Features1 client:only="react" />
+  <Brands client:only="react" />
+  <FAQ client:only="react" /> 
   <Footer />
-  <ScrollUpButton client:load />
+  <ScrollUpButton client:only="react" />
 </Layout>
