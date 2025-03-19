@@ -1,6 +1,6 @@
-# Tailcast
+# LocalX
 
-Dark themed website template built on AstroJS, designed for fictional startup
+LocalX aims to digitise local commerce by creating an ecosystem where users can discover and support local businesses while enjoying the convenience of modern e-commerce. It’s a perfect blend of technology and community-driven shopping!
 
 ## Tech stack:
 
