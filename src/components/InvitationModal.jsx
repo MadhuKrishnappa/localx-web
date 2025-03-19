@@ -13,7 +13,7 @@ export const InvitationModal = ({ setIsOpen }) => (
       exit={{ opacity: 0 }}
     >
       <div
-        className="w-full h-full  bg-bgDarkTransparentDarker fixed top-0 left-0 flex  z-50 justify-center items-center"
+        className="w-full h-full  bg-bgDarkTransparent fixed top-0 left-0 flex  z-50 justify-center items-center"
         onClick={() => setIsOpen(false)}
       >
         <div
@@ -22,14 +22,14 @@ export const InvitationModal = ({ setIsOpen }) => (
         >
           <div className="flex relative">
             <div className="w-1/2 hidden lg:inline">
-              <h2 className="mt-6 mb-2 text-4xl font-bold tracking-normal text-primaryText">
+              <h2 className="mt-6 mb-2 text-4xl font-bold tracking-normal text-primaryColor">
               LocalX – Launching Soon!
               </h2>
-              <h2 className="text-4xl font-bold tracking-normal text-secondaryColor">
+              <h2 className="text-4xl font-bold tracking-normal text-primaryText">
               Your local marketplace, reimagined.
               </h2>
 
-              <ul className="mb-6 text-primaryText mt-12">
+              <ul className="mb-6 text-secondaryText mt-12">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
                   <span>Sign up on LocalX</span>
@@ -49,18 +49,16 @@ export const InvitationModal = ({ setIsOpen }) => (
                 <div className="text-white mr-2 text-8xl">
                   <TailcastLogo />
                 </div>
-                <div className="text-white font-['Inter'] font-bold text-3xl">
-                  Tailcast
-                </div>
+            
               </div>
 
-              <h3 className="mb-7 text-2xl text-primaryText font-bold leading-snug text-center">
+              <h3 className="mb-7 text-2xl text-primaryColor font-bold leading-snug text-center">
               Partner with Us
               </h3>
               <div className="flex flex-wrap -m-2">
                 <div className="w-full sm:w-4/5 p-2 mx-auto">
                   <input
-                    className="px-4 py-4 w-full text-gray-500 font-medium text-center placeholder-gray-500 outline-none border bg-gray-300 border-gray-300 rounded-lg focus:ring focus:ring-indigo-300"
+                    className="px-4 py-4 w-full text-white font-medium text-center placeholder-white outline-none border bg-gray-400 border-gray-300 rounded-lg focus:ring focus:ring-indigo-300"
                     id="newsletterInput3-1"
                     type="text"
                     placeholder="Your email address"
@@ -68,7 +66,7 @@ export const InvitationModal = ({ setIsOpen }) => (
                 </div>
                 <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
                   <button
-                    className="py-4 px-6 w-full text-primaryText font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-primaryColor hover:bg-[#7274f3] transition ease-in-out duration-200"
+                    className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-primaryColor hover:bg-[#7274f3] transition ease-in-out duration-200"
                     type="button"
                     aria-label="Join now"
                   >

@@ -33,7 +33,7 @@ export const Footer = () => {
           <div className="flex flex-wrap">
             <div className="w-full lg:w-1/3 mb-16 lg:mb-0">
               <div className="flex justify-center lg:justify-start items-center grow basis-0">
-                <div className="text-white mr-2 text-6xl">
+                <div className="text-primaryText mr-2 text-6xl">
                   <TailcastLogo />
                 </div>
                 
